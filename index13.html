@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="styles13.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+
+  <div class="contact-container">
+    <div class="form-section">
+      <h2>Get in touch</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit →</button>
+      </form>
+      <p id="statusMessage"></p>
+    </div>
+    <div class="image-section">
+      <img src="https://icon-library.com/images/icon-contact-us/icon-contact-us-22.jpg" alt="Contact Illustration" />
+    </div>
+  </div>
+
+  <script src="script13.js"></script>
+</body>
+</html>
